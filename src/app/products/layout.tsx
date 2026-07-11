@@ -10,6 +10,7 @@ export default function ProductLayout ({
         <html lang="en">
             <body>
                 {children}
+                <footer style={{background:'lightgreen', padding:'1rem'}}>This is product page footer</footer>
             </body>
         </html>
     )
