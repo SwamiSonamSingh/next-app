@@ -1,8 +1,12 @@
 import Footer from "./Footer/Footer"
 import Header from "./Header/Header"
+import './global.css'
 
 export const metadata = {
-    title: 'Next.js',
+    title: {
+        default:'This is default page title',
+        template:'%s | This is dynamic title'
+    },
     description: "created by default next"
 }
 
